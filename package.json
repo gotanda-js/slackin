@@ -30,6 +30,6 @@
   "scripts": {
     "test": "mocha",
     "postinstall": "make",
-    "start": "./bin/slackin $SLACK_SUBDOMAIN $SLACK_API_TOKEN"
+    "start": "./bin/slackin -h $OPENSHIFT_NODEJS_IP -p $OPENSHIFT_NODEJS_PORT $SLACK_SUBDOMAIN $SLACK_API_TOKEN"
   }
 }
