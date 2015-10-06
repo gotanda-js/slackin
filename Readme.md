@@ -1,5 +1,5 @@
 
-# slackin
+# slackin [![Circle CI](https://circleci.com/gh/gotandajs/slackin/tree/master.svg?style=svg)](https://circleci.com/gh/gotandajs/slackin/tree/master)
 
 A little server that enables public access
 to a Slack server. Like Freenode, but on Slack.
