@@ -1,0 +1,9 @@
+machine:
+  node:
+    version: 0.10.34
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - git push ssh://5610cae589f5cfc77f000183@gotandajs-pinemz2.rhcloud.com/~/git/gotandajs.git/ master
